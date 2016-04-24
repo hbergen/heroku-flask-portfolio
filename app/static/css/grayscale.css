@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #F58989;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #EA5656;
 }
 
 .light {
@@ -161,7 +161,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .intro .intro-body .intro-text {
@@ -175,7 +175,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 45px;
     }
 
     .intro .intro-body .intro-text {
@@ -261,7 +261,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.portfolio-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -274,9 +274,11 @@ a:focus {
 }
 
 #map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    width: 70%;
+    margin-top: 20px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media(min-width:767px) {
@@ -284,13 +286,14 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .portfolio-section {
         padding: 100px 0;
     }
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 50px;
+        vertical-align: middle;
     }
 }
 
@@ -305,17 +308,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #EA5656;
+    color: #EA5656;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #EA5656;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #EA5656;
 }
 
 ul.banner-social-buttons {
