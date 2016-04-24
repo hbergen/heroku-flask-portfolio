@@ -36,6 +36,23 @@ p {
     line-height: 1.5;
 }
 
+p2 {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.custom-subhead {
+    margin: 0 0 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
@@ -293,7 +310,6 @@ a:focus {
 
     #map {
         height: 400px;
-
         vertical-align: middle;
     }
 }
@@ -349,7 +365,12 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.custom-small {
+    font-size:16px;
 }
 
 ::-moz-selection {
