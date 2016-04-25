@@ -42,16 +42,6 @@ p2 {
     line-height: 1.5;
 }
 
-.custom-subhead {
-    margin: 0 0 5px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 900;
-    line-height: 1.5;
-    letter-spacing: 1px;
-}
-
 
 @media(min-width:768px) {
     p {
