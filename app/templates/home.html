@@ -39,8 +39,9 @@
 
 	  ga('create', 'UA-76874003-1', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
+	<!-- Spam blocker -->
+	<script type="text/javascript" src="static/js/spamspan.js"></script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -103,8 +104,9 @@
         <div class="row">
                 <h2>About</h2>
                 	<img src="static/img/me.jpg" class="img-circle" alt="Me!" height=200>
-                	<br><br>
+                	<p style="padding-left:25px; padding-right:25px;">
                 	I'm Heidi Whiting, an analyst based in <i>Seattle, Washington</i>. 
+                	</p>
         </div>
     </section>
 
@@ -187,9 +189,15 @@
     <section id="contact" class="content-section text-center contact-size">
       <div class="portfolio-section">
                 <h2>contact me</h2>
+                <p style="padding-left:20px; padding-right:20px;">
                 If you have any questions about my work or just want to say hi, feel free to email me!
                 <br><br>
-                <a href="mailto:heidi.a.whiting@gmail.com">heidi.a.whiting@gmail.com</a>
+                	<span class="spamspan">
+		<span class="u">heidi.a.whiting</span>
+		[ at ]
+		<span class="d">gmail [dot] com</span>
+		</span>
+                </p>
         </div>
     </section>
 
