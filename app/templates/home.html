@@ -2,224 +2,327 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <title>heidi.whiting</title>
 
-	<title>heidi.whiting</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-	<!-- Bootstrap Core CSS -->
-	<link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/color/default.css" rel="stylesheet">
 
-	<!-- Custom CSS -->
-	<link href="static/css/grayscale.css" rel="stylesheet">
-	<link href="static/color/default.css" rel="stylesheet">
+    <!-- =======================================================
+        Theme Name: Squadfree
+        Theme URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+        Author: BootstrapMade
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+    <!-- Google Analytics -->
+  	<script>
+  	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	<!-- Custom Fonts -->
-	<link href="static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  	  ga('create', 'UA-76874003-1', 'auto');
+  	  ga('send', 'pageview');
+  	</script>
+  	<!-- Spam blocker -->
+  	<script type="text/javascript" src="static/js/spamspan.js"></script>
+    <script type="text/javascript" src="static/js/timeline.js"></script>
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<script> document.createElement("p2"); </script>
-	<![endif]-->
-
-	<!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-76874003-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
-	<!-- Spam blocker -->
-	<script type="text/javascript" src="static/js/spamspan.js"></script>
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-terminal"></i>  <span class="light">Home</span>
+                <a class="navbar-brand" href="index.html">
+                    <h1>home</h1>
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">about</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">contact</a>
-                    </li>
-                </ul>
+                  <ul class="nav navbar-nav">
+
+                          <li class="active"><a href="#intro">Home</a></li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#background">Background</a></li>
+                          <li><a href="#contact">Contact</a></li>
+
+                          <!--
+                          <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">Example menu</a></li>
+                                  <li><a href="#">Example menu</a></li>
+                                  <li><a href="#">Example menu</a></li>
+                                </ul>
+                          </li>
+                          -->
+
+                  <!-- /navbar-nav -->
+                  </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="brand-heading">Heidi Whiting</h2>
-                        <p class="intro-text">
-                        Fan of <a href="https://en.wikipedia.org/wiki/KISS_principle" target="_blank">simplification</a>, white noise, empathy, and enthusiastic learning. Data geek.
-                        </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+	<!-- Section: intro -->
+    <section id="intro" class="intro">
+
+      		<div class="slogan">
+      			<h2>Heidi Whiting</h2>
+      			<h4>slogan slogan awesome slogan</h4>
+      		</div>
+
+      		<div class="page-scroll">
+      			<a href="#background" class="btn btn-circle">
+      				<i class="fa fa-angle-double-down animated"></i>
+      			</a>
+      		</div>
+
+    </section>
+	<!-- /Section: intro -->
+
+	<!-- Section: about -->
+    <section id="about" class="home-section text-center">
+        <div class="heading-about">
+          <div class="container">
+              <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="section-heading">
+                          <h2>About us</h2>
+                          <i class="fa fa-2x fa-angle-down"></i>
                     </div>
-                </div>
-            </div>
+                    </div>
+                    </div>
+              <!-- /row -->
+              </div>
+          <!-- /container -->
+          </div>
+        <!-- /heading-about -->
         </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center about-size">
-        <div class="row">
-                <h2>About</h2>
-                	<img src="static/img/me.jpg" class="img-circle" alt="Me!" height=200>
-                	<p style="padding-left:25px; padding-right:25px;">
-                	I'm Heidi Whiting, a data scientist based in <i>Seattle, Washington</i>.
-                	</p>
-        </div>
-    </section>
 
-    <!-- Portfolio Section -->
-<section id="portfolio" class="container content-section portfolio-size">
-    <div class="col-sm-6">
-	<h3>Current work</h3>
-	<p>
-	<strong>Data Scientist II, June 2015 - Present</strong>
-	<br><i>Nordstrom, Inc., Seattle, Wa</i>
-	<br> <br>
-	In my current role, I lead analyses from start to finish in support of marketing while leveraging new tools, refining documentation, and automating processes wherever possible.
+         <!-- line that separates header from content in about section -->
+          <div class="container">
+              <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                    </div>
+              <!-- /row -->
+              </div>
 
-	In my spare time, I'm engaged in
-	<ul style="font-size:16px;">
-	<li>studying for my <a href="https://www.coursera.org/specializations/machine-learning" target="_blank">Coursera Machine Learning Specialization</a>;</li>
-	<li>summarizing all <a href="https://www.overleaf.com/read/ndqcxvkpcvwj" target="_blank">my notes in LaTeX</a>;</li>
-	<li>volunteering with <a href="http://www.collegeaccessnow.org/" target="_blank">College Access Now</a> to mentor college students in professional development;</li>
-	<li>attending technology meetups around Seattle; and</li>
-	<li>reading blogs, stackoverflow posts, and github repositories in an attempt to keep up with the myriad new packages and tools that are being released from the open source community.</li>
-	</ul>
-	<br>
-	 <div class="text-center">
-	        <a href="https://www.linkedin.com/in/heidiwhiting" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-	 </div>
-	 </p>
-	<h3>Research</h3>
-	<p>
-	I have participated in a number of research projects, some of which are listed below. My work for these primarily involved gathering, cleaning, and preparing data for analysis according to study objectives.
-	</p>
-	<p style="font-size:14px;">
-	Hutton, Jessica et al. 2015. <i>Analysis of naturalistic driving study data: offset left-turn lanes</i>. Kansas City, Mo: MRIGlobal
-	<br>
-	<a href="http://onlinepubs.trb.org/onlinepubs/shrp2/SHRP2_S2-S08B-RW-1.pdf" target="_blank">Link</a>
-	<br><br>
-	Miglioretti, Diana et al. 2015. <i>Breast Tumor Prognostic Characteristics and Biennial vs Annual Mammography, Age, and Menopausal Status.</i> Breast Cancer Surveillance Consortium.
-	<br>
-	<a href="http://www.ncbi.nlm.nih.gov/pubmed/26501844" target="_blank">Link</a>
-	<br><br>
-	Kerlikowski, Karla et al. 2015. <i>Identifying Women With Dense Breasts at High Risk for Interval Cancer</i>. Breast Cancer Surveillance Consortium.
-	<br>
-	<a href="http://assets.krebsliga.ch/downloads/identifying_women_with_dense_breasts_at_high_risk_for_interval_cancer.pdf" target="_blank">Link</a>
-	</p>
+              <!-- row content -->
+              <div class="row">
+              <!-- /row -->
+              </div>
 
-	<h3>Master's Thesis</h3>
-	<p style="font-size:14px;">
-	Whiting, Heidi and Mitrea, Dorina. 2009. <i>A priori estimates for elliptic partial differential equations on surfaces</i>. Columbia, Mo: University of Missouri--Columbia.
-	<br>
-	<a href="http://www.worldcat.org/title/priori-estimates-for-solutions-of-elliptic-partial-differential-equations-on-surfaces/oclc/703919842" target="_blank">Link</a>
-	</p>
-    </div>
-    <div class="col-sm-6">
-	<h3>Code</h3>
-	<p>
-	I currently use python for most projects and analyses.
-	<br><br>
-	I have created this static website from the ground up using the <a href="http://flask.pocoo.org/">python flask</a> web framework, with deployment on heroku. This site is bootstrapped using a modified <a href="http://startbootstrap.com/template-overviews/grayscale/" target="_blank">Grayscale</a> theme.
-	<br><br>
-	Check out some of my code and projects on <a href="https://github.com/hbergen" target="_blank">GitHub</a>
-	</p>
-	<h3>Visualizations</h3>
-	<p>
-	+ <a href="https://github.com/hbergen/python-machine-learning-helpers/blob/master/Seaborn%20Correlation%20Diagonal%20Matrix.ipynb" target="_blank">seaborn</a><br>
-	+ <a href="https://public.tableau.com/profile/heidi.whiting" target="_blank">
-	Tableau
-	</a>
-	<br><br>
-	  <a href="https://public.tableau.com/profile/heidi.whiting#!/" target="_blank">
-	  <img src="static/img/viz2.png" width=100% alt="Example Tableau visualization 1">
-	  </a>
-	  <br><br>
-	  <a href="https://public.tableau.com/profile/heidi.whiting#!/" target="_blank">
-	  <img src="static/img/viz1.png" width=100% alt="Example Tableau visualization 2">
-	  </a>
-	 </p>
-    </div>
+          <!-- /container -->
+          </div>
+
+  <!-- /Section: about -->
+	</section>
+
+
+  <!-- TIMELINE -->
+<section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <h5>1934</h5>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1937</h5> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1940</h5> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1943</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1946</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1956</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1957</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1967</h5> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1977</h5> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>1985</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>2000</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <h5>2005</h5> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+  </ul>
 </section>
+  <!-- /TIMELINE -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center contact-size">
-      <div class="portfolio-section">
-                <h2>contact me</h2>
-                <p style="padding-left:20px; padding-right:20px;">
-                If you have any questions about my work or just want to say hi, feel free to email me!
-                <br><br>
-                	<span class="spamspan">
-		<span class="u">heidi.a.whiting</span>
-		[ at ]
-		<span class="d">gmail [dot] com</span>
-		</span>
-                </p>
+
+
+	<!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+        		<div class="heading-contact">
+            			<div class="container">
+                  			<div class="row">
+                        			<div class="col-lg-8 col-lg-offset-2">
+                        			<div class="wow bounceInDown" data-wow-delay="0.4s">
+                        			<div class="section-heading">
+                        					<h2>Get in touch</h2>
+                        					<i class="fa fa-2x fa-angle-down"></i>
+                        			</div>
+                        			</div>
+                        			</div>
+                  			</div>
+            			</div>
+        		</div>
+
+
+		<div class="container">
+
+          <!-- contact row line -->
+          <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
+          </div>
+
+          <div class="row">
+          <div class="col-lg-8">
+
+          <div class="boxed-grey">
+                <div class="col-lg-4">
+                      <div class="widget-contact">
+
+                            <h5>Main Office</h5>
+
+                            <address>
+                                  <strong>Squas Design, Inc.</strong><br>
+                                  Seattle, Washington<br>
+                                  <abbr title="Phone">P:</abbr> (123) 456-7890
+                            </address>
+
+                            <address>
+                                  <strong>Email</strong><br>
+                                  <a href="mailto:#">email.name@example.com</a>
+                            </address>
+
+                            <address>
+                                  <strong>We're on social networks</strong><br>
+                                  <ul class="company-social">
+                                  <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                  <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+                                  <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                  </ul>
+                            </address>
+
+                      <!-- /widget-contact -->
+                      </div>
+                <!-- col-lg-4 -->
+                </div>
+          <!-- boxed-grey -->
+          </div>
+
+          <!-- /col-8 -->
         </div>
-    </section>
-
-       <footer>
-        <div class="footer">
-            <p>&copy; Heidi Whiting 2016.
-            <br>Fork this site <a href="https://github.com/hbergen/heroku-flask-portfolio">on GitHub</a>!</p>
+          <!-- /row -->
         </div>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="static/js/jquery.js"></script>
+    <!-- /container -->
+    </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="static/js/bootstrap.min.js"></script>
+  <!-- /Section: contact -->
+	</section>
 
-    <!-- Plugin JavaScript -->
-    <script src="static/js/jquery.easing.min.js"></script>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="wow" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<p>&copy;Me. All rights reserved.</p>
+                    <div class="credits">
+                        <!--
+                            All the links in the footer should remain intact.
+                            You can delete the links only if you purchased the pro version.
+                            Licensing information: https://bootstrapmade.com/license/
+                            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Squadfree
+                        -->
+                        <a href="https://bootstrapmade.com/free-one-page-bootstrap-themes-website-templates/">One Page Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="static/js/grayscale.js"></script>
+  <!-- Core JavaScript Files -->
+  <script src="static/js/jquery.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/jquery.easing.min.js"></script>
+  <script src="static/js/jquery.scrollTo.js"></script>
+  <script src="static/js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="static/js/custom.js"></script>
+  <script src="static/js/timeline.js"></script>
 
 </body>
 

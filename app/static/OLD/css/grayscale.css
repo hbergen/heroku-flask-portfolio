@@ -3,11 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300|Source+Sans+Pro|Raleway+Extra-Bold:800|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
 
 body {
     width: 100%;
     height: 100%;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Roboto', "Trebuchet MS", Helvetica, sans-serif;
     color: #000;
     background-color: #fff;
 }
@@ -25,7 +26,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -63,8 +64,10 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
@@ -152,6 +155,13 @@ a:focus {
     }
 }
 
+.page-scroll .btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -161,6 +171,7 @@ a:focus {
     border-radius: 100%!important;
     font-size: 40px;
     background: 0 0;
+    color: #fff;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -276,7 +287,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

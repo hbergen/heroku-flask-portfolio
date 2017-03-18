@@ -3,8 +3,8 @@ a,.tp-caption a.btn:hover {
 	color: #67b0d1;
 }
 .top-nav-collapse {
-	/*background: #67b0d1; ORIGINAL*/
-	background: #999;
+	/*background: #999; (old grey color)*/
+	background: #78afd6;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -24,13 +24,11 @@ a,.tp-caption a.btn:hover {
 	background: #67b0d1;
 }
 
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #67b0d1;
-}
 
 footer {
-    /*background-color: #67b0d1; ORIGINAL COLOR*/
-		background-color: #999;
+		/*background-color: #999; (old grey color)*/
+		background-color: #78afd6;
+
 }
 
 .btn-skin {
