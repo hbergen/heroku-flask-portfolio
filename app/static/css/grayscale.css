@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
 }
 
 html {
@@ -45,7 +45,6 @@ p {
 }
 
 a {
-    color: #F58989;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +53,6 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #EA5656;
 }
 
 .light {
@@ -66,7 +64,6 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
@@ -80,7 +77,6 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -89,7 +85,6 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -98,29 +93,6 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.navbar-custom .nav li a:hover {
-    outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
-}
-
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-    outline: 0;
-    background-color: transparent;
-}
-
-.navbar-custom .nav li.active {
-    outline: 0;
-}
-
-.navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li.active a:hover {
-    color: #fff;
-}
 
 @media(min-width:768px) {
     .navbar-custom {
@@ -135,8 +107,6 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
     }
 }
 
@@ -146,9 +116,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -189,10 +157,9 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid ;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -202,8 +169,6 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
 }
 
 .btn-circle i.animated {
@@ -224,7 +189,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -241,7 +206,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -274,9 +239,7 @@ a:focus {
 .portfolio-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -321,17 +284,14 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #EA5656;
-    color: #EA5656;
+    border: 1px solid ;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #EA5656;
+    border: 1px solid;
     outline: 0;
-    color: #000;
-    background-color: #EA5656;
 }
 
 ul.banner-social-buttons {
@@ -371,14 +331,10 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
 }
 
 img::selection {
@@ -390,5 +346,4 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
