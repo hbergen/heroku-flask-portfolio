@@ -50,8 +50,17 @@ footer p {
 	color: #f8f8f8;
 }
 
-.credits, .credits a {
+.credits {
     color: #fff;
+}
+
+.credits a{
+	color: #D8D8D8 ;
+}
+
+.credits a:hover,
+.credits a:focus{
+		color: #000;
 }
 
 .btn-skin {
