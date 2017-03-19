@@ -48,7 +48,6 @@ p.lead {
 }
 
 a {
-    color: #28c3ab;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -57,7 +56,6 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
 }
 
 .light {
@@ -81,7 +79,6 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
   font-size: 20px;
   line-height: 40px;
 }
@@ -102,16 +99,16 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+  color: #444;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-	color: #fff;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: #fff;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -140,9 +137,9 @@ a:focus {
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover,
@@ -151,12 +148,7 @@ a:focus {
     outline: 0;
     background-color: rgba(255,255,255,.2);
 }
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
+
 
 .navbar-toggle {
     padding: 4px 6px;
@@ -282,29 +274,6 @@ hr {
 }
 
 
-/* --- section bg var --- */
-
-.bg-white {
-	background: #fff;
-}
-
-.bg-gray {
-	background: #f8f8f8;
-}
-
-
-.bg-dark {
-	background: #575757;
-}
-
-/* --- section color var --- */
-
-.text-light {
-	color: #fff;
-}
-
-
-
 /* ===========================
 --- Intro
 ============================ */
@@ -330,16 +299,11 @@ hr {
 	text-align: center;
 }
 
-.brand-heading {
-    font-size: 40px;
-}
-
 .intro-text {
     font-size: 18px;
 }
 
 .intro .slogan h2 {
-	color: #FFF;
 	text-shadow: none;
 	font-size: 60px;
 	line-height: 60px;
@@ -355,78 +319,68 @@ hr {
 }
 
 .intro .slogan h4 {
-	color: #fff;
 	text-shadow: -1px 1px 1px #000;
   text-transform: lowercase;
 }
 
 
-
+/* ===========================
+--- ABOUT
+============================== */
+.avatar {
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
 
 /* ===========================
 --- Contact
 ============================ */
 
-.boxed-grey {
-	background: #f9f9f9;
-	padding: 20px;
-}
-
-.validation {
-    color: red;
-    display:none;
-    margin: 0 0 20px;
-    font-weight:400;
-    font-size:13px;
+.address {
+  text-align: center;
 }
 
 .company-social {
 	margin-left: 0;
 	padding-left: 0;
-	margin-top: 10px;
+	margin-top: 5px;
+  text-align: center;
 }
 
-.company-social {
-	text-align: left;
-}
 
 .company-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
+  display: inline-block;
+  margin:0 !important;
+  padding:0;
 }
 
 .company-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  margin:0;
+  padding:0;
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #3bbec0;
+  color: #fff;
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 .company-social a i{
 	text-align: center;
 	margin:0;
 	padding:0;
 }
-.company-social .social-facebook a{background: #3873ae;}
-.company-social .social-twitter a{background: #62c6f8;}
-.company-social .social-dribble a{background: #d74980;}
-.company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
-.company-social .social-vimeo a{background: #51a6d3;}
-.company-social .social-facebook a:hover{background: #4893ce;}
-.company-social .social-twitter a:hover{background: #82e6ff;}
-.company-social .social-dribble a:hover{background: #f769a0;}
-.company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
-.company-social .social-vimeo a:hover{background: #71c6f3;}
 
+.company-social .social-twitter a{background: #62c6f8;}
+.company-social .social-github a{background: #000;}
+.company-social .social-linkedin a{background: #0077B5;}
+
+.company-social .social-twitter a:hover{background: #82e6ff; color: #fff;}
+.company-social .social-github a:hover{background: #333; color: #fff;}
+.company-social .social-linkedin a:hover{background: #1984bc; color: #fff;}
 
 
 /* ===========================
@@ -440,11 +394,7 @@ footer {
 }
 
 footer p {
-	color: #f8f8f8;
-}
-
-.credits, .credits a {
-    color: #fff;
+  text-align: center;
 }
 
 

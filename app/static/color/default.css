@@ -1,32 +1,57 @@
+/* COLOR CODES
+ 78afd6: main bright blue accent color
+ 67b0d1: slightly darker shade of 78afd6 to be used as a border color
+ f9f9f9: light gray background color
+ 176e61: dark green color for link hover
+*/
 
-a,.tp-caption a.btn:hover {
-	color: #67b0d1;
+a,
+.tp-caption a.btn:hover,
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+		color: #67b0d1;
 }
+
+
+a:hover,
+a:focus {
+	color: #176e61;
+}
+
 .top-nav-collapse {
-	/*background: #999; (old grey color)*/
 	background: #78afd6;
 }
 
-.navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	color: #67b0d1;
+/* Top left "Home" button link*/
+.navbar-brand h1,
+/* text color for nav links */
+.navbar-custom.top-nav-collapse ul.nav li a {
+	color: #fff;
 }
+
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
     background-color: #67b0d1;
 }
 
-.widget-avatar .avatar:hover {
-    border: 5px solid #67b0d1;
-}
-
 .bg-skin {
 	background: #67b0d1;
 }
 
+.intro .slogan h2,
+.intro .slogan h4 {
+	color: #FFF;
+}
 
 footer {
 		background-color: #78afd6;
+}
+footer p {
+	color: #f8f8f8;
+}
+
+.credits, .credits a {
+    color: #fff;
 }
 
 .btn-skin {
