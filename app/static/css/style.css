@@ -10,17 +10,17 @@
 
 
 body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Roboto',sans-serif;
-	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #666;
+  background-color: #fff;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 h1,
@@ -40,6 +40,7 @@ p {
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 1.6em;
+    text-align: left;
 }
 
 p.lead {
@@ -312,12 +313,12 @@ hr {
 	width:100%;
 	position:relative;
 	background: url(../img/bg1.jpg) no-repeat top center;
-    background-size: cover;
-    height: auto;
+  background-size: cover;
+  height: auto;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:20% 0 60% 0;
 }
 
 .intro .slogan {
@@ -360,116 +361,15 @@ hr {
 }
 
 
-/* ===========================
---- About
-============================ */
-
-.boxed-grey {
-	background: #f9f9f9;
-	padding: 20px;
-}
-
-.team h5 {
-	margin-bottom: 10px;
-}
-
-.team p.subtitle {
-	margin-bottom: 10px;
-}
-
-.avatar {
-	margin-bottom: 20px;
-}
-
-.team-social {
-	margin-left: 0;
-	padding-left: 0;
-
-}
-
-.team-social {
-	text-align: center;
-}
-
-.team-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
-}
-
-
-.team-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-.team-social a i{
-	text-align: center;
-	margin:0;
-	padding:0;
-}
-.team-social .social-facebook a{background: #3873ae;}
-.team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-dribble a{background: #d74980;}
-.team-social .social-deviantart a{background: #8da356;}
-.team-social .social-google a{background: #000;}
-.team-social .social-vimeo a{background: #51a6d3;}
-.team-social .social-facebook a:hover{background: #4893ce;}
-.team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-dribble a:hover{background: #f769a0;}
-.team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
-.team-social .social-vimeo a:hover{background: #71c6f3;}
-
-
-/* ===========================
---- Services
-============================ */
-
-.service-icon {
-	margin-bottom: 20px;
-}
-
 
 
 /* ===========================
 --- Contact
 ============================ */
 
-form#contact-form .form-group label {
-	text-align: left !important;
-	display: block;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 12px;
-}
-form#contact-form input,form#contact-form select,form#contact-form textarea {
-	border-radius: 0;
-	border: 1px solid #eee;
-  -webkit-box-shadow: none;
-          box-shadow:  none;
-}
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-}
-.input-group-addon {
-  background-color: #fefefe;
-  border: 1px solid #eee;
-  border-radius: 0;
-}
-
-.widget-contact {
-	text-align: left;
+.boxed-grey {
+	background: #f9f9f9;
+	padding: 20px;
 }
 
 .validation {
@@ -478,30 +378,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
     margin: 0 0 20px;
     font-weight:400;
     font-size:13px;
-}
-
-#sendmessage {
-    color: green;
-    border:1px solid green;
-    display:none;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#errormessage {
-    color: red;
-    display:none;
-    border:1px solid red;
-    text-align:center;
-    padding:15px;
-    font-weight:600;
-    margin-bottom:15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-	display:block;
 }
 
 .company-social {
@@ -519,7 +395,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 	margin:0 !important;
 	padding:0;
 }
-
 
 .company-social a{
 	margin:0;
@@ -572,57 +447,19 @@ footer p {
     color: #fff;
 }
 
-/* ==========================
-Parallax
-============================= */
-
-#parallax1{
-	background-image: url(../img/parallax/1.jpg);
-}
-
-#parallax1:after {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
-}
-
-
-#parallax2{
-	background-image: url(../img/parallax/2.jpg);
-
-}
-
-#parallax2:after  {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
-}
-
 
 /* ===========================
 --- Elements
 ============================ */
 
 .btn {
-	border-radius: 0;
-    text-transform: uppercase;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 
@@ -789,13 +626,13 @@ Parallax
         font-size: 100px;
     }
 
-
     .intro-text {
         font-size: 25px;
     }
 
-
 }
+
+
 @media (max-width:768px) {
 
 	.team.boxed-grey {
@@ -805,7 +642,6 @@ Parallax
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
-
 
 }
 
@@ -839,8 +675,6 @@ Parallax
 
 
 
-
-
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 *,
@@ -860,7 +694,7 @@ Parallax
 
 .timeline ul {
   /*background: #456990;*/
-  padding: 50px 0;
+  padding: 0 0;
 }
 
 /*line ??*/
@@ -885,6 +719,7 @@ Parallax
   border-radius: 50%;
   background: inherit;
 }
+
 /* timeline description boxes */
 .timeline ul li div {
   position: relative;
@@ -968,7 +803,7 @@ time {
 }
 
 
-/* GENERAL MEDIA QUERIES
+/* GENERAL TIMELINE MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media screen and (max-width: 900px) {
