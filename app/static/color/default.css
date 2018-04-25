@@ -8,13 +8,21 @@
 a,
 .tp-caption a.btn:hover,
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-		color: #67b0d1;
+		color: #af9785;
 }
 
 
 a:hover,
 a:focus {
-	color: #176e61;
+	color: #daa985;
+}
+
+a.slogan {
+  color: #e0c3ac
+}
+
+a.slogan:hover {
+  color: #f5bc90
 }
 
 .top-nav-collapse {
@@ -55,12 +63,13 @@ footer p {
 }
 
 .credits a{
-	color: #D8D8D8 ;
+	color: #f3ded4 ;
 }
 
 .credits a:hover,
 .credits a:focus{
-		color: #000;
+  color: #f3ded4;
+  font-weight: bold;
 }
 
 .btn-skin {
