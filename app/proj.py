@@ -1,7 +1,6 @@
 # coding: utf-8
 import os, sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
+from importlib import reload
 
 from flask import Flask, render_template, request, url_for
 from datetime import datetime
